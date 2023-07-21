@@ -65,6 +65,7 @@ h3 {
   overflow-wrap: break-word;
   font-size: xx-large;
   color: var(--border-light-blue);
+  border-right: 3px solid var(--border-light-blue);
 }
 
 .text {
