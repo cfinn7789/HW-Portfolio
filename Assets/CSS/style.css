@@ -64,6 +64,7 @@ h2 {
 h3 {
   overflow-wrap: break-word;
   font-size: xx-large;
+  color: var(--border-light-blue);
 }
 
 .text {
@@ -79,21 +80,31 @@ p {
   margin-bottom: 100px;
   padding-left: 100px;
   width: 100%;
-  display: flex;
 }
 
 .top-image-box {
-  margin-left: 200px;
+  margin-left: 500px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
 }
 
 .box-1 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap:wrap;
   align-items: center;
-  width: 200px;
-  height: 200px;
+  justify-content: center;
 }
+
+.box-2 {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 footer {
