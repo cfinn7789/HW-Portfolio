@@ -102,34 +102,18 @@ p {
   margin: 10px;
 }
 
-.top-image-box {
-  width: 100%;
-  border: 5px solid var(--border-light-green);
-  overflow: hidden;
-}
-
 .box-1 {
-  width: 100%;
+  width: 90%;
   border: 5px solid var(--border-light-green);
   overflow: hidden;
 }
 
-.box-2 {
-  width: 100%;
-  border: 5px solid var(--border-light-green);
-  overflow: hidden;
+.image {
+  transition: width 0.3s ease;
 }
 
-.box-3 {
-  width: 100%;
-  border: 5px solid var(--border-light-green);
-  overflow: hidden;
-}
-
-.box-4 {
-  width: 100%;
-  border: 5px solid var(--border-light-green);
-  overflow: hidden;
+.image:hover {
+  width: 110%; /* Set the expanded width on hover */
 }
 
 .project {
